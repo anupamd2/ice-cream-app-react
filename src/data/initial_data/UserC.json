@@ -1,0 +1,9 @@
+{
+  "username": "userC",
+  "password": "passwordC",
+  "iceCreamPreferences": {
+    "Strawberry": { "order": 1, "notes": "Perfect with a waffle" },
+    "Vanilla": { "order": 2, "notes": "Great with sprinkles" },
+    "Chocolate": { "order": 3, "notes": "More chocolate chips please" }
+  }
+}
