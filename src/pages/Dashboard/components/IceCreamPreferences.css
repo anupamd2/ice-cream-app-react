@@ -123,3 +123,11 @@
 .add-form-error-container {
   margin-top: 20px;
 }
+
+.title {
+  margin: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: normal;
+}

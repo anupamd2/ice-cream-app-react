@@ -101,6 +101,10 @@ function IceCreamPreferences({ user }: IceCreamPreferencesProps): JSX.Element {
     <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
       <div className="ice-cream-preferences-container">
         <p className="title">Your Ice Cream Preferences</p>
+        <p className="tutorial">
+          Place cursor over the 6 dot icon, and drag and drop to reorder your
+          ice cream preferences
+        </p>
         <SortableContext
           items={preferences.map(
             (iceCreamPreference) => iceCreamPreference.flavour

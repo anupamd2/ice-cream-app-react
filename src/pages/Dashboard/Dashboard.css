@@ -21,7 +21,6 @@ body {
 }
 
 .full-screen-container {
-  background-color: white;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -30,7 +29,7 @@ body {
 
 .dashboard-container {
   align-items: flex-start;
-  overflow: scroll;
+  overflow-y: scroll;
   padding-top: 120px;
   padding-bottom: 30px;
 }
@@ -71,12 +70,4 @@ body {
   padding: 30px 30px;
   width: 80%;
   max-width: 600px;
-}
-
-.title {
-  margin: 0;
-  text-align: left;
-  width: 100%;
-  font-size: 2rem;
-  font-weight: normal;
 }
